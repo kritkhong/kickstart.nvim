@@ -1,6 +1,6 @@
 # nvim + tmux cheatsheet
 
-Personal quick reference. Open anytime with `<space>sf` → `cheat`.
+Personal quick reference. Open from anywhere with `<space>sn` → `cheat` (searches your nvim config dir).
 Leader key = `<space>`. LSP keys (`gr*`, `K`) work in files where a language server is attached (e.g. `.py`).
 
 ---
