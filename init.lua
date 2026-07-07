@@ -694,8 +694,12 @@ do
   local servers = {
     -- clangd = {},
     -- gopls = {},
-    -- pyright = {},
     -- rust_analyzer = {},
+
+    -- Odoo / KK Concrete: catch mistakes in the Python + XML code written here
+    pyright = {}, -- Python: types, undefined names, bad imports, arg mismatches
+    ruff = {}, -- Python: linter — unused imports, undefined vars, dead code (+ autofix)
+    lemminx = {}, -- XML: malformed Odoo views/reports — unclosed tags, bad nesting
     --
     -- Some languages (like typescript) have entire language plugins that can be useful:
     --    https://github.com/pmizio/typescript-tools.nvim
